@@ -1,0 +1,35 @@
+html
+
+.bp-nav ul {
+    display: flex;
+    gap:20px;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+
+    }
+
+.bp-nav a {
+    padding: 8px 12px;
+    background: #2e7d32;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;  }
+
+.bp-nav a:hover {
+    background: #f4f4f4;
+    padding: 16px;
+    margin: 12ps 0;
+    border-radius: 8px;
+
+}
+
+#gui
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #2e7d32
+    color white
+    border none;
+    border-radius: 6px;
+    cursor: pointe
