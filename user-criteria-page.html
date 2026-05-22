@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User's Experience Personlization</title>
+</head>
+<body>
+    <form id="prefs-form">
+        <fieldset>
+            <legend>What is your preferred trail difficulty?</legend>
+            <label><input type="radio" name="difficulty" value="easy"> Easy</label>
+            <label><input type="radio" name="difficulty" value="moderate"> Moderate</label>
+            <label><input type="radio" name="difficulty" value="hard"> Hard</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>What is your preferred density?</legend>
+            <label><input type="radio" name="density" value="non-popular"> Not Popular</label>
+            <label><input type="radio" name="density" value="popular"> Popular</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Would you like official trails only?</legend>
+            <label><input type="radio" name="official" value="yes"> Yes</label>
+            <label><input type="radio" name="official" value="no"> No</label>
+        </fieldset>
+
+        <button type="submit">Save Preferences</button>
+    </form>
+
+    <script src="scripts/criteria.js"></script>
+</body>
+</html>

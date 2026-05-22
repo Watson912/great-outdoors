@@ -1,0 +1,130 @@
+{
+  "trails": [
+    {
+      "id": 1,
+      "name": "Hoh Rain Forest",
+      "location": "Olympic National Park",
+      "popularity": "high",
+      "difficulty": "easy",
+      "reason": "Beginner anchor",
+      "criteria": ["Beginner", "Popular"]
+    },
+    {
+      "id": 2,
+      "name": "Hurricane Hill Trail",
+      "location": "Olympic National Park",
+      "popularity": "high",
+      "difficulty": "easy",
+      "reason": "Beginner-friendly + scenic",
+      "criteria": ["Beginner", "Popular"]
+    },
+    {
+      "id": 3,
+      "name": "Franklin Falls",
+      "location": "Snoqualmie Region",
+      "popularity": "high",
+      "difficulty": "easy",
+      "reason": "Famous easy waterfall hike near Seattle",
+      "criteria": ["Beginner", "Popular"]
+    },
+    {
+      "id": 4,
+      "name": "Rattlesnake Ledge",
+      "location": "Snoqualmie Region",
+      "popularity": "high",
+      "difficulty": "moderate",
+      "reason": "Most popular near Seattle",
+      "criteria": ["Beginner", "Advanced", "Popular"]
+    },
+    {
+      "id": 5,
+      "name": "Skyline Loop Trail",
+      "location": "Mount Rainier National Park",
+      "popularity": "high",
+      "difficulty": "moderate",
+      "reason": "Iconic Rainier hike",
+      "criteria": ["Beginner", "Advanced", "Popular"]
+    },
+    {
+      "id": 6,
+      "name": "Fremont Lookout",
+      "location": "Mount Rainier National Park",
+      "popularity": "high",
+      "difficulty": "moderate",
+      "reason": "Great photos, NPS data",
+      "criteria": ["Beginner", "Advanced", "Popular"]
+    },
+    {
+      "id": 7,
+      "name": "Maple Pass Loop",
+      "location": "North Cascades",
+      "popularity": "high",
+      "difficulty": "moderate/hard",
+      "reason": "Iconic loop, geographic spread",
+      "criteria": ["Advanced", "Popular"]
+    },
+    {
+      "id": 8,
+      "name": "Colchuck Lake Trail",
+      "location": "Central Cascades",
+      "popularity": "high",
+      "difficulty": "moderate/hard",
+      "reason": "Famous turquoise lake",
+      "criteria": ["Advanced", "Popular"]
+    },
+    {
+      "id": 9,
+      "name": "Mount Si Trail",
+      "location": "Snoqualmie Region",
+      "popularity": "high",
+      "difficulty": "hard",
+      "reason": "Classic hard hike near Seattle",
+      "criteria": ["Advanced", "Popular"]
+    },
+    {
+      "id": 10,
+      "name": "High Divide - Seven Lakes Basin Loop",
+      "location": "Olympic National Park",
+      "popularity": "high",
+      "difficulty": "hard",
+      "reason": "Showcases advanced trails",
+      "criteria": ["Advanced"]
+    },
+    {
+      "id": 11,
+      "name": "Marmot Pass Trail",
+      "location": "Olympic Peninsula",
+      "popularity": "low",
+      "difficulty": "hard",
+      "reason": "Less crowded feature",
+      "criteria": ["Advanced", "Less popular"]
+    },
+    {
+      "id": 12,
+      "name": "Gothic Basin Trail",
+      "location": "North Cascades",
+      "popularity": "low",
+      "difficulty": "hard",
+      "reason": "Less crowded feature",
+      "criteria": ["Advanced", "Less popular"]
+    },
+    {
+      "id": 13,
+      "name": "Carne Mountain",
+      "location": "Central Cascades",
+      "popularity": "low",
+      "difficulty": "hard",
+      "reason": "Less crowded feature",
+      "criteria": ["Advanced", "Less popular"]
+    },
+    {
+      "id": 14,
+      "name": "Ptarmigan Ridge Trail",
+      "location": "North Cascades",
+      "popularity": "low",
+      "difficulty": "hard",
+      "reason": "Territorial coverage",
+      "criteria": ["Advanced", "Less popular"]
+    }
+  ]
+}
