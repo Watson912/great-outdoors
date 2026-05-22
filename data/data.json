@@ -7,7 +7,8 @@
       "popularity": "high",
       "difficulty": "easy",
       "reason": "Beginner anchor",
-      "criteria": ["Beginner", "Popular"]
+      "criteria": ["Beginner", "Popular"],
+      "official": true
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "popularity": "high",
       "difficulty": "easy",
       "reason": "Beginner-friendly + scenic",
-      "criteria": ["Beginner", "Popular"]
+      "criteria": ["Beginner", "Popular"],
+      "official": true
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "popularity": "high",
       "difficulty": "easy",
       "reason": "Famous easy waterfall hike near Seattle",
-      "criteria": ["Beginner", "Popular"]
+      "criteria": ["Beginner", "Popular"],
+      "official": true
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "popularity": "high",
       "difficulty": "moderate",
       "reason": "Most popular near Seattle",
-      "criteria": ["Beginner", "Advanced", "Popular"]
+      "criteria": ["Beginner", "Advanced", "Popular"],
+      "official": true
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "popularity": "high",
       "difficulty": "moderate",
       "reason": "Iconic Rainier hike",
-      "criteria": ["Beginner", "Advanced", "Popular"]
+      "criteria": ["Beginner", "Advanced", "Popular"],
+      "official": true
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "popularity": "high",
       "difficulty": "moderate",
       "reason": "Great photos, NPS data",
-      "criteria": ["Beginner", "Advanced", "Popular"]
+      "criteria": ["Beginner", "Advanced", "Popular"],
+      "official": true
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "popularity": "high",
       "difficulty": "moderate/hard",
       "reason": "Iconic loop, geographic spread",
-      "criteria": ["Advanced", "Popular"]
+      "criteria": ["Advanced", "Popular"],
+      "official": true
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "popularity": "high",
       "difficulty": "moderate/hard",
       "reason": "Famous turquoise lake",
-      "criteria": ["Advanced", "Popular"]
+      "criteria": ["Advanced", "Popular"],
+      "official": true
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "popularity": "high",
       "difficulty": "hard",
       "reason": "Classic hard hike near Seattle",
-      "criteria": ["Advanced", "Popular"]
+      "criteria": ["Advanced", "Popular"],
+      "official": true
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "popularity": "high",
       "difficulty": "hard",
       "reason": "Showcases advanced trails",
-      "criteria": ["Advanced"]
+      "criteria": ["Advanced"],
+      "official": true
     },
     {
       "id": 11,
@@ -97,7 +107,8 @@
       "popularity": "low",
       "difficulty": "hard",
       "reason": "Less crowded feature",
-      "criteria": ["Advanced", "Less popular"]
+      "criteria": ["Advanced", "Less popular"],
+      "official": true
     },
     {
       "id": 12,
@@ -106,7 +117,8 @@
       "popularity": "low",
       "difficulty": "hard",
       "reason": "Less crowded feature",
-      "criteria": ["Advanced", "Less popular"]
+      "criteria": ["Advanced", "Less popular"],
+      "official": true
     },
     {
       "id": 13,
@@ -115,7 +127,8 @@
       "popularity": "low",
       "difficulty": "hard",
       "reason": "Less crowded feature",
-      "criteria": ["Advanced", "Less popular"]
+      "criteria": ["Advanced", "Less popular"],
+      "official": true
     },
     {
       "id": 14,
@@ -124,7 +137,8 @@
       "popularity": "low",
       "difficulty": "hard",
       "reason": "Territorial coverage",
-      "criteria": ["Advanced", "Less popular"]
+      "criteria": ["Advanced", "Less popular"],
+      "official": true
     }
   ]
 }

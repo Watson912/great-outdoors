@@ -16,18 +16,20 @@
 
         <fieldset>
             <legend>What is your preferred density?</legend>
-            <label><input type="radio" name="density" value="non-popular"> Not Popular</label>
-            <label><input type="radio" name="density" value="popular"> Popular</label>
+            <label><input type="radio" name="density" value="low"> Not Popular</label>
+            <label><input type="radio" name="density" value="high"> Popular</label>
         </fieldset>
 
         <fieldset>
             <legend>Would you like official trails only?</legend>
-            <label><input type="radio" name="official" value="yes"> Yes</label>
-            <label><input type="radio" name="official" value="no"> No</label>
+            <label><input type="radio" name="official" value="true"> Yes</label>
+            <label><input type="radio" name="official" value="false"> No</label>
         </fieldset>
 
         <button type="submit">Save Preferences</button>
     </form>
+
+    <ul id="trail-list"></ul>
 
     <script src="scripts/criteria.js"></script>
 </body>
