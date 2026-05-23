@@ -1,30 +1,303 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Welcome to the Great Outdoors!</title>
-<link rel="stylesheet" type="text/css" href="styles/toplevel.css">
-<script src="scripts/myscripts.js"></script>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Outdoors - Your Adventure Awaits</title>
+    <link rel="stylesheet" href="styles/homepage.css">
 </head>
-
 <body>
+    <!-- Navigation Bar -->
+    <nav class="bp-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="trails.html">Trails</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
 
-<h1>Welcome to the Great Outdoors!</h1>
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="images/outdoors.jpg" alt="Beautiful hiking trail with mountains">
+        <div class="hero-content">
+            <h1>Welcome to Great Outdoors</h1>
+            <p>Discover amazing trails and connect with nature</p>
+            <button class="cta-button">Explore Trails</button>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section class="about">
+        <h2>Why Choose Us?</h2>
+        <p>Great Outdoors makes it easy to find and explore hiking trails near you. Whether you're a beginner or an experienced hiker, we have trails for everyone.</p>
+    </section>
 
-<img src = "images/outdoors.jpg" alt="Great Outdoors" onmouseover="showAlt(this)" onmouseout="hideAlt(this)">
-<figcaption>Your Adventure Awaits!</figcaption>
+    <!-- Featured Trails -->
+    <section class="featured-trails">
+        <h2>Popular Trails</h2>
+        <div class="trails-grid">
+            <div class="trail-card">
+                <h3>Mountain Peak</h3>
+                <p>Challenging mountain hike with stunning views</p>
+                <a href="mountain.html">View Details</a>
+            </div>
+            <div class="trail-card">
+                <h3>Forest Walk</h3>
+                <p>Peaceful walk through scenic forest</p>
+                <a href="forest.html">View Details</a>
+            </div>
+            <div class="trail-card">
+                <h3>Waterfall Trail</h3>
+                <p>Beautiful trail leading to a stunning waterfall</p>
+                <a href="falls.html">View Details</a>
+            </div>
+        </div>
+    </section>
 
-<p id="alttext" style="font-size:50px"> <p>
-
-<ul>
-<li><a href="mountain.html">Climb the Mountain</a></li>
-<li><a href="forest.html">Wander the Forest</a></li>
-<li><a href="falls.html">See the Falls</a></li>
-<li><a href="ferry.html">Ride the Ferry</a></li>
-<li><a href="lake.html">Walk Around the Lake</a></li>
-<li><a href="park.html">Read in the Park</a></li>
-</ul>
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Great Outdoors. All rights reserved.</p>
+    </footer>
 </body>
 </html>
+Scroll to the bottom and you'll see a "Commit changes" section
+In the commit message box, type something like:
+Update homepage with navigation and hero section
+Click "Commit changes"
+Done with file 1! ✅
+
+Step 4: Create the Second File (styles/homepage.css)
+Now we create the CSS file:
+
+Click "Add file" button again
+Click "Create new file"
+In the filename box, type: styles/homepage.css
+The styles/ part creates it inside the styles folder
+In the text area, paste this entire CSS code:
+CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navigation Bar */
+.bp-nav {
+    background-color: #2e7d32;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.bp-nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 0 20px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.bp-nav a {
+    padding: 8px 12px;
+    background: #2e7d32;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.bp-nav a:hover {
+    background: #f4f4f4;
+    color: #2e7d32;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    padding: 12px 30px;
+    background-color: #ff6b35;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #d9501a;
+}
+
+/* About Section */
+.about {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #2e7d32;
+}
+
+.about p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Featured Trails Section */
+.featured-trails {
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.featured-trails h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #2e7d32;
+}
+
+.trails-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.trail-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.trail-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.trail-card h3 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.trail-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.trail-card a:hover {
+    background-color: #1b5e20;
+}
+
+/* Footer */
+footer {
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Responsive Design - Tablet */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+    
+    .hero p {
+        font-size: 16px;
+    }
+    
+    .bp-nav ul {
+        gap: 10px;
+    }
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 480px) {
+    .hero {
+        height: 300px;
+    }
+    
+    .hero h1 {
+        font-size: 28px;
+    }
+    
+    .hero p {
+        font-size: 14px;
+    }
+    
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    
+    .bp-nav ul {
+        gap: 5px;
+        flex-direction: column;
+    }
+    
+    .bp-nav a {
+        display: block;
+        text-align: center;
+    }
+}
