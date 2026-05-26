@@ -3,33 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User's Experience Personlization</title>
+    <title>Trail Preferences | PNW Hiking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/criteria.css">
 </head>
 <body>
-    <form id="prefs-form">
-        <fieldset>
-            <legend>What is your preferred trail difficulty?</legend>
-            <label><input type="radio" name="difficulty" value="easy"> Easy</label>
-            <label><input type="radio" name="difficulty" value="moderate"> Moderate</label>
-            <label><input type="radio" name="difficulty" value="hard"> Hard</label>
-        </fieldset>
+    <div class="container">
+        <header class="header">
+            <span class="badge">PNW Hiking</span>
+            <h1>Find your <em>perfect</em> trail</h1>
+            <p class="subtitle">Tell us how you like to hike, and we'll match you with trails across the Pacific Northwest.</p>
+        </header>
 
-        <fieldset>
-            <legend>What is your preferred density?</legend>
-            <label><input type="radio" name="density" value="low"> Not Popular</label>
-            <label><input type="radio" name="density" value="high"> Popular</label>
-        </fieldset>
+        <div class="card">
+            <form id="prefs-form">
+                <fieldset>
+                    <legend>Preferred trail difficulty</legend>
+                    <div class="options">
+                        <label><input type="radio" name="difficulty" value="easy"> Easy</label>
+                        <label><input type="radio" name="difficulty" value="moderate"> Moderate</label>
+                        <label><input type="radio" name="difficulty" value="hard"> Hard</label>
+                    </div>
+                </fieldset>
 
-        <fieldset>
-            <legend>Would you like official trails only?</legend>
-            <label><input type="radio" name="official" value="true"> Yes</label>
-            <label><input type="radio" name="official" value="false"> No</label>
-        </fieldset>
+                <fieldset>
+                    <legend>Trail popularity</legend>
+                    <div class="options">
+                        <label><input type="radio" name="density" value="low"> Quiet & remote</label>
+                        <label><input type="radio" name="density" value="high"> Popular spots</label>
+                    </div>
+                </fieldset>
 
-        <button type="submit">Save Preferences</button>
-    </form>
+                <fieldset>
+                    <legend>Official trails only?</legend>
+                    <div class="options">
+                        <label><input type="radio" name="official" value="true"> Yes, Official</label>
+                        <label><input type="radio" name="official" value="false"> No, Community Trail</label>
+                    </div>
+                </fieldset>
 
-    <ul id="trail-list"></ul>
+                <button type="submit">Save preferences</button>
+            </form>
+        </div>
+
+        <ul id="trail-list"></ul>
+    </div>
 
     <script src="scripts/criteria.js"></script>
 </body>
