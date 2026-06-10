@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PNW - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="styles/index_style.css">
     <link rel="icon" href="images/logo.png" sizes="64x64">
 </head>
@@ -24,50 +25,11 @@
 
         <section>
             <h1>Welcome to Pacific Northwest Hiking!</h1>
+            <p>Explore trails across the Pacific Northwest — your next adventure awaits.</p>
         </section>
 
-        <div class="row">
-            <div class="inside-row">
-                <a href="ferry.html"><img src="images/ferry.jpg" alt="ferry"></a>
-                <h2>Ferry</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, soluta iure. Nulla necessitatibus.</p>
-            </div>
-
-            <div class="inside-row">
-                <a href="lake.html"><img src="images/lake.jpg" alt="lake"></a>    
-                <h2>Lake</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, soluta iure. Nulla necessitatibus.</p>            
-            </div>
-
-            <div class="inside-row">
-                <a href="park.html"><img src="images/park.jpg" alt="park"></a>
-                <h2>Park</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, soluta iure. Nulla necessitatibus.</p>                
-            </div>
-
-            <div class="inside-row">
-                <a href="mountain.html"><img src="images/mountain.jpg" alt="mountain"></a>
-                <h2>Mountain</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, soluta iure. Nulla necessitatibus.</p>                
-            </div>
-
-            <div class="inside-row">
-                <a href="outdoors.html"><img src="images/outdoors.jpg" alt="outdoors"></a> 
-                <h2>Outdoors</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, soluta iure. Nulla necessitatibus.</p>                                      
-            </div>
-
-            <div class="inside-row">
-                <a href="forest.html"><img src="images/forest.jpg" alt="forest"></a>
-                <h2>Forest</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, soluta iure. Nulla necessitatibus.</p>                                        
-            </div>
-
-            <div class="inside-row">
-                <a href="falls.html"><img src="images/waterfall.jpg" alt="forest"></a>
-                <h2>Waterfall</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, soluta iure. Nulla necessitatibus.</p>                                        
-            </div>   
+        <div class="row" id="featured-trails">
+            <!-- Trail cards are injected here by scripts/home.js -->
         </div>
 
         <footer>
@@ -81,8 +43,8 @@
                 </li>
             </ul>
         </footer>
+        <script src="scripts/index.js"></script>
     </div>
     
 </body>
 </html>
-
