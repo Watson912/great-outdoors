@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trail — PNW Trails</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/guides.css"/>
+  <link rel="stylesheet" href="styles/trail.css"/>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <div class="nav-logo"><span>🌲</span> PNW Trails</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html" class="active">Guides</a></li>
+    <li><a href="#">Map</a></li>
+    <li><a href="#">Community</a></li>
+  </ul>
+  <div class="nav-search">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    </svg>
+    <input type="text" placeholder="Search trails…" aria-label="Search trails"/>
+  </div>
+</nav>
+
+<!-- ── HERO ── -->
+<div class="trail-hero">
+  <img id="hero-img" src="" alt="" class="trail-hero-img">
+  <div class="trail-hero-overlay"></div>
+  <div id="hero-emoji" class="trail-hero-emoji"></div>
+  <div class="trail-hero-content">
+    <a href="trails.html" class="back-link">← All Guides</a>
+    <span id="hero-difficulty" class="difficulty-badge">Easy</span>
+    <h1 id="trail-title">Loading…</h1>
+    <p id="trail-location" class="trail-location-text">📍</p>
+  </div>
+</div>
+
+<!-- ── STATS BAR ── -->
+<div class="stats-bar">
+  <div class="stat-item">
+    <span class="stat-label">Distance</span>
+    <span class="stat-value" id="stat-distance">—</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat-item">
+    <span class="stat-label">Elevation Gain</span>
+    <span class="stat-value" id="stat-elevation">—</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat-item">
+    <span class="stat-label">Trail Type</span>
+    <span class="stat-value" id="stat-type">—</span>
+  </div>
+  <div class="stat-divider"></div>
+  <div class="stat-item">
+    <span class="stat-label">Difficulty</span>
+    <span class="stat-value" id="stat-difficulty">—</span>
+  </div>
+</div>
+
+<!-- ── MAIN CONTENT ── -->
+<main class="trail-main">
+
+  <!-- Overview -->
+  <section class="trail-section">
+    <h2 class="section-heading">📖 Overview</h2>
+    <p id="trail-description" class="trail-description"></p>
+    <ul id="overview-points" class="bullet-list"></ul>
+  </section>
+
+  <!-- Highlights -->
+  <section class="trail-section">
+    <h2 class="section-heading">✨ Highlights</h2>
+    <ul id="highlights-list" class="highlights-list"></ul>
+  </section>
+
+  <!-- Best Time -->
+  <section class="trail-section">
+    <h2 class="section-heading">🗓 Best Time to Visit</h2>
+    <p id="best-time-heading" class="best-time-subheading"></p>
+    <ul id="best-time-seasons" class="bullet-list"></ul>
+  </section>
+
+  <!-- Tips -->
+  <section class="trail-section">
+    <h2 class="section-heading">💡 Visitor Tips</h2>
+    <ul id="tips-list" class="bullet-list tips-list"></ul>
+  </section>
+
+  <!-- Actions -->
+  <div class="trail-actions">
+    <a id="external-link" href="#" class="btn-primary" target="_blank" rel="noopener noreferrer">
+      View Full Trail Info ↗
+    </a>
+    <a href="trails.html" class="btn-secondary">← Back to All Guides</a>
+  </div>
+
+</main>
+
+<script src="scripts/trail.js"></script>
+</body>
+</html>
