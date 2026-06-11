@@ -1,0 +1,272 @@
+/* ── HERO ── */
+.trail-hero {
+  position: relative;
+  height: 360px;
+  background: var(--forest);
+  overflow: hidden;
+}
+
+.trail-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.trail-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(10, 24, 16, 0.85) 0%, rgba(10, 24, 16, 0.2) 60%, transparent 100%);
+}
+
+.trail-hero-emoji {
+  position: absolute;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  background: linear-gradient(135deg, #1e3a2f 0%, #3b6b4a 100%);
+}
+
+.trail-hero-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1.5rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.back-link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: 500;
+  transition: color 0.15s;
+  align-self: flex-start;
+}
+
+.back-link:hover {
+  color: #fff;
+}
+
+.difficulty-badge {
+  align-self: flex-start;
+  padding: 0.2rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: white;
+}
+
+.difficulty-badge.easy     { background: var(--easy); }
+.difficulty-badge.moderate { background: var(--moderate); }
+.difficulty-badge.hard     { background: var(--hard); }
+
+.trail-hero-content h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  color: white;
+  line-height: 1.2;
+}
+
+.trail-location-text {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 0.88rem;
+}
+
+/* ── STATS BAR ── */
+.stats-bar {
+  background: white;
+  border-bottom: 1px solid var(--sand);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  flex-wrap: wrap;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  gap: 0.2rem;
+}
+
+.stat-label {
+  font-size: 0.68rem;
+  font-weight: 600;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.stat-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--forest);
+}
+
+.stat-divider {
+  width: 1px;
+  height: 36px;
+  background: var(--sand);
+}
+
+/* ── MAIN CONTENT ── */
+.trail-main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.trail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.section-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;
+  color: var(--forest);
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--sand);
+}
+
+.trail-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+/* ── LISTS ── */
+.bullet-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.bullet-list li {
+  font-size: 0.93rem;
+  line-height: 1.6;
+  color: var(--text);
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.bullet-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: var(--moss);
+  font-weight: 700;
+}
+
+.highlights-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.65rem;
+}
+
+.highlights-list li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--cream);
+  border-radius: 10px;
+  padding: 0.65rem 0.9rem;
+  border-left: 3px solid var(--sage);
+}
+
+.tips-list li {
+  padding-left: 1.5rem;
+}
+
+.tips-list li::before {
+  content: '✓';
+  color: var(--easy);
+}
+
+.best-time-subheading {
+  font-size: 0.93rem;
+  font-weight: 600;
+  color: var(--bark);
+}
+
+/* ── ACTIONS ── */
+.trail-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding-top: 0.5rem;
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--forest);
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: background 0.18s;
+}
+
+.btn-primary:hover {
+  background: var(--moss);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  color: var(--forest);
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  border: 1.5px solid var(--sand);
+  transition: border-color 0.18s, background 0.18s;
+}
+
+.btn-secondary:hover {
+  border-color: var(--moss);
+  background: var(--cream);
+}
+
+/* ── ERROR ── */
+.error-msg {
+  text-align: center;
+  padding: 3rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.error-msg a {
+  color: var(--moss);
+  text-decoration: underline;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 640px) {
+  .trail-hero { height: 280px; }
+  .trail-hero-content { padding: 1rem 1rem 1.5rem; }
+  .stat-item { padding: 0.8rem 1.25rem; }
+  .highlights-list { grid-template-columns: 1fr; }
+  .trail-main { padding: 1.5rem 1rem 4rem; }
+}

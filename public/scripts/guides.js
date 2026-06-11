@@ -68,14 +68,12 @@ function createCardHTML(trail) {
         <div class="card-title">${trail.title}</div>
         <div class="card-location">📍 ${trail.location}</div>
         <div class="card-meta">
-          <span class="meta-rating"><span class="star">★</span> ${trail.rating}</span>
+          <span>${trail.distance_miles} mi</span>
           <span class="meta-sep">·</span>
-          <span>${trail.distance_km} km</span>
+          <span>↑ ${trail.elevation_gain_ft ? trail.elevation_gain_ft.toLocaleString() : '—'} ft</span>
+          <span class="card-type-tag">${trail.type || '—'}</span>
           <span class="meta-sep">·</span>
-          <span>${trail.est_time}</span>
-          <span class="card-type-tag">${trail.type}</span>
-          <span class="meta-sep">·</span>
-          <span>👥 ${crowdScore}/10</span>  <!-- ← add this -->
+          <span>👥 ${crowdScore}/10</span>
         </div>
       </div>
     </a>

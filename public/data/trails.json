@@ -1,198 +1,633 @@
 [
   {
     "id": 1,
+    "slug": "hoh-rain-forest",
     "title": "Hoh Rain Forest",
     "location": "Olympic National Park",
     "difficulty": "easy",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 1.3,
+    "distance_miles": 0.8,
+    "elevation_gain_ft": 50,
     "est_time": null,
-    "type": null,
+    "type": "Loop",
     "emoji": "🌿",
     "image": "images/trails/hoh rain forest/pic 1.jpg",
-    "url": "#"
+    "url": "trail.html?id=hoh-rain-forest",
+    "link": "https://www.nps.gov/olym/planyourvisit/visiting-the-hoh.htm",
+    "description": "One of the largest temperate rain forests in the United States, getting up to 14 feet of rain a year.",
+    "overview_points": [
+      "Towering Sitka spruce, western hemlock, Douglas fir, and bigleaf maple covered in green moss",
+      "Fern-covered ground, clear streams, and dense canopies with soft light",
+      "Home to Roosevelt elk, black bears, banana slugs, and many birds, plants, and fungi"
+    ],
+    "highlights": [
+      "🌲 Ancient trees over 300 feet tall",
+      "🍃 Moss-covered branches with a storybook feel",
+      "🥾 Easy walking trails like the Hall of Mosses and Spruce Nature Trail",
+      "🦌 Frequent Roosevelt elk sightings",
+      "🌧 Lush greenery all year long"
+    ],
+    "best_time": {
+      "heading": "Beautiful in Every Season",
+      "seasons": [
+        "Spring: Wildflowers bloom, rivers run high",
+        "Summer: Mild and driest — best for hiking",
+        "Fall: Colorful leaves, fewer visitors",
+        "Winter: Mist and moss give a magical feel"
+      ]
+    },
+    "tips": [
+      "Wear waterproof shoes and bring a rain jacket, even in summer",
+      "Arrive early — parking fills fast in peak season",
+      "Stay on designated trails to protect the ecosystem",
+      "Keep distance from wildlife and follow Leave No Trace"
+    ]
   },
   {
     "id": 2,
+    "slug": "hurricane-hill-trail",
     "title": "Hurricane Hill Trail",
     "location": "Olympic National Park",
     "difficulty": "easy",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 5.1,
+    "distance_miles": 3.2,
+    "elevation_gain_ft": 650,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🌬️",
     "image": "images/trails/hurricane hill trail/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=hurricane-hill-trail",
+    "link": "https://www.wta.org/go-hiking/hikes/hurricane-hill",
+    "description": "An iconic paved trail with big views for little effort, climbing gently through alpine meadows to the summit of Hurricane Hill.",
+    "overview_points": [
+      "Sweeping views of the Olympic Mountains, Strait of Juan de Fuca, and Vancouver Island",
+      "Summer wildflowers and wildlife like Olympic marmots and black-tailed deer",
+      "Great spot for sunrise, sunset, and stargazing"
+    ],
+    "highlights": [
+      "🏔 Spectacular 360-degree mountain and coastal views",
+      "🌸 Seasonal wildflowers in alpine meadows",
+      "🦌 Frequent wildlife sightings",
+      "🚶 Smooth, paved trail for a wide range of hikers",
+      "📸 One of the park's most photographed viewpoints"
+    ],
+    "best_time": {
+      "heading": "Late Spring – Early Fall",
+      "seasons": [
+        "July–September has the clearest weather and best wildflowers",
+        "Early mornings are cooler, quieter, and have softer light"
+      ]
+    },
+    "tips": [
+      "Dress in layers — temperatures and winds change fast up high",
+      "Bring water, sun protection, and a camera",
+      "Stay on designated trails to protect alpine plants",
+      "Check road and trail conditions before visiting"
+    ]
   },
   {
     "id": 3,
+    "slug": "franklin-falls",
     "title": "Franklin Falls",
     "location": "Snoqualmie Region",
     "difficulty": "easy",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 3.2,
+    "distance_miles": 2.0,
+    "elevation_gain_ft": 400,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "💧",
     "image": "images/trails/franklin trails/pic 1.jpeg",
-    "url": "#"
+    "url": "trail.html?id=franklin-falls",
+    "link": "https://www.wta.org/go-hiking/hikes/franklin-falls",
+    "description": "A popular, family-friendly waterfall hike near Snoqualmie Pass ending at a 70-foot cascade.",
+    "overview_points": [
+      "Trail follows the South Fork Snoqualmie River through cedar and fir forest",
+      "Mist and rushing water create a refreshing atmosphere at the base",
+      "Great for families, beginners, and quick adventures"
+    ],
+    "highlights": [
+      "💧 Stunning 70-foot waterfall over rugged cliffs",
+      "🌲 Scenic forest trail with moss and river views",
+      "🥾 Short, beginner-friendly hike for all ages",
+      "📸 Great photography all year",
+      "❄️ Frozen waterfall views in winter"
+    ],
+    "best_time": {
+      "heading": "Great Year-Round",
+      "seasons": [
+        "Spring: Powerful water flow from snowmelt",
+        "Summer: Warm and easy — ideal for families",
+        "Fall: Golden foliage backdrop",
+        "Winter: Frozen falls — traction devices may be needed"
+      ]
+    },
+    "tips": [
+      "Wear sturdy footwear — trail can be muddy or slippery",
+      "Go early or on weekdays to avoid crowds",
+      "View the falls from safe, designated spots",
+      "Pack out trash and follow Leave No Trace"
+    ]
   },
   {
     "id": 4,
+    "slug": "rattlesnake-ledge",
     "title": "Rattlesnake Ledge",
     "location": "Snoqualmie Region",
     "difficulty": "moderate",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 6.4,
+    "distance_miles": 4.0,
+    "elevation_gain_ft": 1160,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🦅",
     "image": "images/trails/rattlesnake_ledge/pic 1.JPG",
-    "url": "#"
+    "url": "trail.html?id=rattlesnake-ledge",
+    "link": "https://www.wta.org/go-hiking/hikes/rattlesnake-ledge",
+    "description": "One of Washington's most iconic day hikes, just a short drive from Seattle, climbing through forest to a dramatic rocky ledge.",
+    "overview_points": [
+      "Views of Rattlesnake Lake and the Cascade foothills",
+      "Well-maintained path through Douglas firs and hemlocks",
+      "Suitable for hikers of all experience levels"
+    ],
+    "highlights": [
+      "🏞 Panoramic overlook of Rattlesnake Lake",
+      "🌲 Towering evergreens and seasonal wildflowers",
+      "🥾 Well-maintained path for beginners and experienced hikers",
+      "📸 One of the most photographed viewpoints near Seattle",
+      "🌅 Beautiful sunrise and sunset views"
+    ],
+    "best_time": {
+      "heading": "Accessible Year-Round",
+      "seasons": [
+        "Spring/summer: green and warm",
+        "Fall: colorful foliage",
+        "Winter: peaceful but possibly icy"
+      ]
+    },
+    "tips": [
+      "Arrive early or go on weekdays to avoid crowds",
+      "Wear sturdy shoes and bring plenty of water",
+      "Stay behind safety barriers — avoid unstable cliff edges",
+      "Keep pets leashed and follow Leave No Trace",
+      "Check weather and trail conditions, especially in winter"
+    ]
   },
   {
     "id": 5,
+    "slug": "skyline-loop-trail",
     "title": "Skyline Loop Trail",
     "location": "Mount Rainier National Park",
     "difficulty": "moderate",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 8.9,
+    "distance_miles": 5.5,
+    "elevation_gain_ft": 1450,
     "est_time": null,
     "type": "Loop",
     "emoji": "🏔️",
     "image": "images/trails/skyline_loop_trail/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=skyline-loop-trail",
+    "link": "https://www.wta.org/go-hiking/hikes/skyline-trail-loop",
+    "description": "A premier loop hike starting at the Paradise area, climbing through subalpine landscapes with views of Mount Rainier.",
+    "overview_points": [
+      "Wildflower meadows, waterfalls, and glacier views",
+      "Marmots, mountain goats, and many birds along the way",
+      "One of the most photographed trails in the Pacific Northwest"
+    ],
+    "highlights": [
+      "🏔 Close-up views of Mount Rainier and its glaciers",
+      "🌸 Alpine meadows full of seasonal wildflowers",
+      "💧 Scenic stops like Myrtle Falls and mountain streams",
+      "🦌 Marmots, mountain goats, and native wildlife",
+      "📸 Panoramic viewpoints over valleys and peaks"
+    ],
+    "best_time": {
+      "heading": "Mid-July – September",
+      "seasons": [
+        "Snow-free with peak wildflowers and best weather",
+        "Early mornings: cooler, fewer crowds, best photos"
+      ]
+    },
+    "tips": [
+      "Sturdy shoes and layers — mountain weather changes fast",
+      "Bring water, snacks, and sun protection (lots of exposure)",
+      "Stay on designated paths to protect the alpine ecosystem",
+      "Check trail and weather conditions — snow can linger into summer"
+    ]
   },
   {
     "id": 6,
+    "slug": "mount-fremont-lookout",
     "title": "Fremont Lookout",
     "location": "Mount Rainier National Park",
     "difficulty": "moderate",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 9.0,
+    "distance_miles": 5.6,
+    "elevation_gain_ft": 1200,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🔭",
     "image": "images/trails/fremont_lookout/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=mount-fremont-lookout",
+    "link": "https://www.wta.org/go-hiking/hikes/mount-fremont-lookout",
+    "description": "A classic alpine hike from the Sunrise area to a historic fire lookout high above the landscape.",
+    "overview_points": [
+      "Ridgelines and open meadows with constant Mount Rainier views",
+      "Summer wildflowers, mountain goats, marmots, and birds of prey",
+      "Restored lookout with 360-degree views of the Cascades"
+    ],
+    "highlights": [
+      "🏔 Uninterrupted views of Mount Rainier and glaciers",
+      "🛖 Historic fire lookout with panoramic scenery",
+      "🌸 Alpine meadows and seasonal wildflowers",
+      "🦌 Frequent marmot and mountain goat sightings",
+      "📸 Exceptional sunrise and sunset photography"
+    ],
+    "best_time": {
+      "heading": "July – Early October",
+      "seasons": [
+        "Snow melted and alpine flowers in bloom",
+        "Late afternoon/evening hikes are popular for golden light and sunsets"
+      ]
+    },
+    "tips": [
+      "Bring warm layers — cool temps and strong winds even in summer",
+      "Carry water, snacks, and sun protection (exposed trail)",
+      "Stay on designated paths to protect alpine plants",
+      "Check conditions — mountain weather changes fast"
+    ]
   },
   {
     "id": 7,
+    "slug": "maple-pass-loop",
     "title": "Maple Pass Loop",
     "location": "North Cascades",
     "difficulty": "hard",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 11.6,
+    "distance_miles": 7.2,
+    "elevation_gain_ft": 2020,
     "est_time": null,
     "type": "Loop",
     "emoji": "🍁",
     "image": "images/trails/maple_pass_loop/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=maple-pass-loop",
+    "link": "https://www.wta.org/go-hiking/hikes/maple-pass",
+    "description": "One of Washington's most celebrated alpine hikes, climbing through forest to open ridgelines with views in every direction.",
+    "overview_points": [
+      "Crystal-clear lakes, rugged peaks, and colorful meadows",
+      "Famous for golden larches and fall colors",
+      "Summer wildflowers, marmots, and mountain goats"
+    ],
+    "highlights": [
+      "🏔 Panoramic views of the North Cascades",
+      "🍂 Stunning golden larches and fall foliage",
+      "💧 Overlooks of Lake Ann and alpine tarns",
+      "🌸 Colorful wildflower meadows in summer",
+      "📸 Premier landscape photography destination"
+    ],
+    "best_time": {
+      "heading": "Late June – October",
+      "seasons": [
+        "Summer: lush meadows and clear views",
+        "Late September – early October: famous golden larch season"
+      ]
+    },
+    "tips": [
+      "Hike clockwise for a more gradual climb and steady views",
+      "Bring layers — weather changes fast even in summer",
+      "Carry water, snacks, and sun protection for exposed sections",
+      "Stay on marked trails and follow Leave No Trace"
+    ]
   },
   {
     "id": 8,
+    "slug": "colchuck-lake-trail",
     "title": "Colchuck Lake Trail",
     "location": "Central Cascades",
     "difficulty": "hard",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 12.9,
+    "distance_miles": 8.0,
+    "elevation_gain_ft": 2280,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🏞️",
     "image": "images/trails/colchuck_lake_trail/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=colchuck-lake-trail",
+    "link": "https://www.wta.org/trail-news/go-hiking/hikes/colchuck-lake",
+    "description": "An alpine adventure leading to one of Washington's most stunning glacial lakes, at the edge of the Enchantments.",
+    "overview_points": [
+      "Pine forests and granite landscapes leading to turquoise water",
+      "Framed by the towering peaks of the Stuart Range",
+      "Popular with day hikers and photographers"
+    ],
+    "highlights": [
+      "💎 Vibrant turquoise glacial lake with granite peaks",
+      "🏔 Views of Dragontail Peak and the Stuart Range",
+      "🌲 Forest trails with streams and wildflowers",
+      "📸 Excellent reflection photography",
+      "🥾 Gateway to the famous Enchantments wilderness"
+    ],
+    "best_time": {
+      "heading": "Late June – October",
+      "seasons": [
+        "Summer: warm hiking and wildflowers",
+        "Early fall: crisp air, golden larches, colorful scenery"
+      ]
+    },
+    "tips": [
+      "Start early — parking fills quickly in peak season",
+      "Sturdy shoes for rocky, uneven terrain",
+      "Bring water, snacks, and layers",
+      "Follow Leave No Trace in the fragile alpine area",
+      "Check trail conditions and required permits before going"
+    ]
   },
   {
     "id": 9,
+    "slug": "mount-si-trail",
     "title": "Mount Si Trail",
     "location": "Snoqualmie Region",
     "difficulty": "hard",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 12.9,
+    "distance_miles": 8.0,
+    "elevation_gain_ft": 3150,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "⛰️",
     "image": "images/trails/mount_si_trail/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=mount-si-trail",
+    "link": "https://www.wta.org/go-hiking/hikes/mount-si",
+    "description": "An iconic, challenging climb near North Bend, popular as a training hike with rewarding summit views.",
+    "overview_points": [
+      "Switchbacks through evergreen forest up to rocky terrain",
+      "Views of the Snoqualmie Valley and Cascade peaks",
+      "Optional scramble to the Haystack near the summit"
+    ],
+    "highlights": [
+      "🏔 Panoramic views of the Snoqualmie Valley and Cascades",
+      "🌲 Forest trail lined with Douglas firs and cedars",
+      "🪨 Optional Haystack scramble for adventurous hikers",
+      "🌿 Seasonal wildflowers and abundant wildlife",
+      "📸 One of the most popular hikes near Seattle"
+    ],
+    "best_time": {
+      "heading": "Accessible Year-Round",
+      "seasons": [
+        "Spring/summer: lush and warm",
+        "Fall: vibrant foliage and crisp air",
+        "Winter: snowy scenery — needs proper gear and experience"
+      ]
+    },
+    "tips": [
+      "Start early for parking, especially on weekends",
+      "Sturdy shoes and plenty of water for the sustained climb",
+      "Dress in layers — temps vary between trailhead and summit",
+      "Use caution around exposed rock sections",
+      "Follow Leave No Trace on this heavily visited trail"
+    ]
   },
   {
     "id": 10,
+    "slug": "high-divide-seven-lakes",
     "title": "High Divide and Seven Lakes Basin Loop",
     "location": "Olympic National Park",
     "difficulty": "hard",
     "popularity": "high",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 30.6,
+    "distance_miles": 19.0,
+    "elevation_gain_ft": 4000,
     "est_time": null,
     "type": "Loop",
     "emoji": "🗺️",
     "image": "images/trails/high_divide_and_seven_lakes_basin_loop/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=high-divide-seven-lakes",
+    "link": "https://www.wta.org/news/go-hiking/hikes/seven-lakes-basin",
+    "description": "One of the most spectacular backcountry routes in Olympic National Park, mixing mountain ridgelines with alpine lakes.",
+    "overview_points": [
+      "Climbs from rainforest to high alpine terrain",
+      "Views of the Olympic Mountains, including Mount Olympus on clear days",
+      "Popular multi-day backpacking trip; sometimes done as a long day hike"
+    ],
+    "highlights": [
+      "🏔 Ridge views of the Olympics and Mount Olympus",
+      "💧 Seven alpine lakes in glacial basins",
+      "🌲 Transition from rainforest to alpine ecosystems",
+      "🦌 Black bears, marmots, and deer in remote habitat",
+      "📸 Exceptional backpacking scenery"
+    ],
+    "best_time": {
+      "heading": "Mid-July – September",
+      "seasons": [
+        "Summer: best for hiking and camping, wildflowers, long daylight",
+        "Early fall: cooler temps and fewer crowds",
+        "Snow can linger into early summer up high"
+      ]
+    },
+    "tips": [
+      "Wilderness permit required for overnight backpacking",
+      "Expect big elevation gain and changing mountain weather",
+      "Carry bear-proof food storage; follow Leave No Trace strictly",
+      "Bring layers for rainforest humidity and alpine wind",
+      "Reserve campsites in advance during peak season"
+    ]
   },
   {
     "id": 11,
+    "slug": "marmot-pass-trail",
     "title": "Marmot Pass Trail",
     "location": "Olympic Peninsula",
     "difficulty": "hard",
     "popularity": "low",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 18.5,
+    "distance_miles": 11.5,
+    "elevation_gain_ft": 3489,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🐾",
     "image": "images/trails/marmot_pass_trail/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=marmot-pass-trail",
+    "link": "https://www.wta.org/go-hiking/hikes/marmot-pass-upper-big-quilcene",
+    "description": "A classic Olympic Peninsula hike in the Buckhorn Wilderness, climbing from forest to a high alpine saddle.",
+    "overview_points": [
+      "Old-growth forest, open meadows, and rocky ridgelines",
+      "Views of Buckhorn Mountain, Copper Peak, and the Strait of Juan de Fuca on clear days",
+      "Named for the playful marmots often seen near the pass"
+    ],
+    "highlights": [
+      "🏔 Expansive alpine views of the Olympic Mountains",
+      "🌲 Transition from old-growth forest to subalpine meadows",
+      "🌸 Summer wildflowers near the pass",
+      "🦫 Frequent marmot sightings in rocky zones",
+      "📸 Excellent ridge photography spots"
+    ],
+    "best_time": {
+      "heading": "July – Early October",
+      "seasons": [
+        "Summer: most reliable conditions and full wildflower bloom",
+        "Early fall: cooler air, fewer hikers"
+      ]
+    },
+    "tips": [
+      "Long, moderately strenuous hike with steady elevation gain",
+      "Bring layers — warm forest to windy alpine ridges",
+      "Carry plenty of water and navigation tools",
+      "Don't feed or approach marmots and goats",
+      "Snow can linger at higher elevations into summer"
+    ]
   },
   {
     "id": 12,
+    "slug": "gothic-basin-trail",
     "title": "Gothic Basin Trail",
     "location": "North Cascades",
     "difficulty": "hard",
     "popularity": "low",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 14.8,
+    "distance_miles": 9.2,
+    "elevation_gain_ft": 2840,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🌑",
     "image": "images/trails/gothic_basin_trail/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=gothic-basin-trail",
+    "link": "https://www.wta.org/go-hiking/hikes/gothic-basin",
+    "description": "A rugged, dramatic alpine hike near Granite Falls, climbing steeply into a glacier-carved basin.",
+    "overview_points": [
+      "Jagged peaks and granite walls around small reflective tarns",
+      "Beneath the towering Sloan Peak",
+      "Final section often requires scrambling over boulders and loose rock"
+    ],
+    "highlights": [
+      "🏔 Dramatic alpine basin with jagged peaks and cliffs",
+      "💧 Beautiful tarns reflecting Sloan Peak",
+      "🌲 Steep forest climb into high alpine terrain",
+      "🌸 Seasonal wildflowers among rocks and snowfields",
+      "📸 One of the most striking alpine spots near Seattle"
+    ],
+    "best_time": {
+      "heading": "Late July – September",
+      "seasons": [
+        "Snow mostly melted from the basin",
+        "Early summer may still have snow crossings; fall is cooler and quieter"
+      ]
+    },
+    "tips": [
+      "Strenuous hike with big elevation gain and rocky scrambling",
+      "Sturdy boots with good traction for unstable terrain",
+      "Extra layers — the basin can be cold and windy even in summer",
+      "Carry navigation tools and check conditions first",
+      "Follow Leave No Trace — fragile alpine environment"
+    ]
   },
   {
     "id": 13,
+    "slug": "carne-mountain",
     "title": "Carne Mountain",
     "location": "Central Cascades",
     "difficulty": "hard",
     "popularity": "low",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 11.7,
+    "distance_miles": 7.3,
+    "elevation_gain_ft": 3600,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🏕️",
     "image": "images/trails/carne_mountain/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=carne-mountain",
+    "link": "https://www.wta.org/go-hiking/hikes/carne-mountain",
+    "description": "A striking alpine hike in the eastern North Cascades near the Entiat River Valley with long ridgeline views.",
+    "overview_points": [
+      "Forested slopes giving way to subalpine wildflowers and rocky outcrops",
+      "Views of Glacier Peak and the rugged Entiat Mountains",
+      "Broad, exposed ridge feels remote — no technical climbing required"
+    ],
+    "highlights": [
+      "🏔 Wide-open ridge views of Glacier Peak and the Cascades",
+      "🌸 Vibrant subalpine wildflowers mid–late summer",
+      "🌲 Scenic transition from forest to open alpine terrain",
+      "📸 Panoramic viewpoints with minimal crowds",
+      "🐾 Mountain goats and other alpine wildlife"
+    ],
+    "best_time": {
+      "heading": "July – September",
+      "seasons": [
+        "Snow melted from the ridge, wildflowers in bloom",
+        "Early season: lingering snow patches; fall: crisp air, quieter trails"
+      ]
+    },
+    "tips": [
+      "Long, strenuous hike — start early and pace yourself",
+      "Bring layers for the windy, exposed ridge",
+      "Plenty of water and sun protection (limited shade up high)",
+      "Check trail conditions after snowmelt or storms",
+      "Stay on established paths to protect alpine plants"
+    ]
   },
   {
     "id": 14,
+    "slug": "ptarmigan-ridge-trail",
     "title": "Ptarmigan Ridge Trail",
     "location": "North Cascades",
     "difficulty": "hard",
     "popularity": "low",
     "rating": null,
-    "distance_km": null,
+    "distance_km": 14.5,
+    "distance_miles": 9.0,
+    "elevation_gain_ft": 1800,
     "est_time": null,
-    "type": null,
+    "type": "Out & Back",
     "emoji": "🐦",
     "image": "images/trails/ptarmigan_ridge_trail/pic 1.png",
-    "url": "#"
+    "url": "trail.html?id=ptarmigan-ridge-trail",
+    "link": "https://www.wta.org/go-hiking/hikes/ptarmigan-ridge",
+    "description": "One of Washington's most spectacular high-alpine hikes, in the Mount Baker Wilderness.",
+    "overview_points": [
+      "Exposed ridgelines and alpine meadows starting near Artist Point",
+      "Mount Baker and the Coleman Glacier dominate the views",
+      "On clear days, see deep into the North Cascades and across to the Olympics"
+    ],
+    "highlights": [
+      "🏔 Constant views of Mount Baker and the Coleman Glacier",
+      "🌄 Expansive alpine ridgelines with dramatic drop-offs",
+      "🌸 Seasonal wildflowers across high meadows",
+      "❄️ Lingering snowfields well into summer",
+      "📸 One of the most photogenic ridge hikes in Washington"
+    ],
+    "best_time": {
+      "heading": "July – September",
+      "seasons": [
+        "Early season may still have significant snow",
+        "Late summer: best balance of clear trails and vibrant scenery"
+      ]
+    },
+    "tips": [
+      "Be ready for snow travel early season (traction devices, trekking poles)",
+      "Warm layers and wind protection — constant exposure on the ridge",
+      "Carry navigation tools — snow can hide parts of the trail",
+      "Start early to avoid afternoon weather changes",
+      "Follow Leave No Trace in fragile alpine areas"
+    ]
   }
 ]
