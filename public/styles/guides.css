@@ -31,12 +31,12 @@ body {
 
 /* ── NAV ── */
 nav {
-  background: #D9965B;
+  background: #D4912B;
   padding: 0 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 60px;
+  height: 80px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -44,17 +44,15 @@ nav {
 }
 
 .nav-logo {
-  font-family: 'Playfair Display', serif;
-  color: #ffffff;
-  font-size: 1.25rem;
-  letter-spacing: 0.02em;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  text-decoration: none;
 }
 
-.nav-logo span {
-  font-size: 1.4rem;
+.nav-logo img {
+  height: 70px;
+  width: auto;
+  display: block;
 }
 
 .nav-links {
@@ -163,7 +161,7 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   position: sticky;
-  top: 60px;
+  top: 80px;
   z-index: 90;
 }
 
