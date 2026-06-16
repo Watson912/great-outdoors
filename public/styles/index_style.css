@@ -24,19 +24,20 @@
 #main-nav {
     background: #D4912B;
     padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #main-nav ul {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    width: 100%;
 }
 
 .nav-links {
     display: flex;
-    gap: 50px;
+    gap: 8px;
 }
 
 #main-nav li {
