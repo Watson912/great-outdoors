@@ -1,37 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/login.css">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign In — PNW Trails</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/login.css"/>
+  <link rel="icon" href="images/logo.png" sizes="64x64">
 </head>
 <body>
-    
-    <form action="action_page.php" method="post">
 
-        <div class="imgcontainer">
-            <img src="images/profile-picture.jpg" alt="Avatar" class="avatar">
-        </div>
+<!-- ── NAV ── -->
+<nav id="main-nav">
+  <a href="index.html" class="nav-logo"><img src="images/logo.png" alt="PNW Trails logo"></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html">Trails</a></li>
+    <li><a href="#">Safety</a></li>
+    <li><a href="#">Community</a></li>
+    <li><a href="login.html" class="active">Sign In</a></li>
+  </ul>
+</nav>
 
-        <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+<!-- ── HERO ── -->
+<header class="hero">
+  <h1>Welcome Back</h1>
+  <p>Sign in to access your trails and saved adventures.</p>
+</header>
 
-            <label for="pass"><b>Password</b></label>
-            <input type="text" placeholder="Enter Password" name="pass" required>
+<!-- ── LOGIN CARD ── -->
+<main class="login-main">
+  <div class="login-card">
+    <h2 class="card-title">Sign In</h2>
 
-            <button type="submit">Login</button>
-            <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
-            </label>
-        </div>
+    <form id="login-form" novalidate>
+      <div class="field-group">
+        <label for="uname">Username</label>
+        <input type="text" id="uname" name="uname" placeholder="Enter your username" required autocomplete="username"/>
+      </div>
 
-        <div class="container" style="background-color: #f1f1f1;">
-            <button class="cancelbtn" type="button">Cancel</button> 
-            <span class="pass">Forget <a href="#">Password?</a></span>    
-        </div>
+      <div class="field-group">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" placeholder="Enter your password" required autocomplete="current-password"/>
+      </div>
+
+      <div class="remember-row">
+        <label class="checkbox-label">
+          <input type="checkbox" name="remember" id="remember"/>
+          <span>Remember me</span>
+        </label>
+        <a href="#" class="forgot-link">Forgot password?</a>
+      </div>
+
+      <button type="submit" class="btn-primary">Sign In</button>
     </form>
+
+    <p class="signup-prompt">Don't have an account? <a href="#">Create one</a></p>
+  </div>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <ul>
+    <li>All Rights Reserved</li>
+    <li>Copyright &copy; 2026</li>
+    <li class="footer-socials">
+      <a href="">Facebook</a>
+      <a href="">Twitter</a>
+      <a href="">Instagram</a>
+    </li>
+  </ul>
+</footer>
 
 </body>
 </html>
