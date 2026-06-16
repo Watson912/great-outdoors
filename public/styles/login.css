@@ -242,6 +242,15 @@ body {
   transform: translateY(0);
 }
 
+/* ── ERROR MESSAGE ── */
+.error-msg {
+  color: #d9513a;
+  font-size: 0.85rem;
+  min-height: 1.2rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
 /* ── SIGN UP PROMPT ── */
 .signup-prompt {
   text-align: center;
