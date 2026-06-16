@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Sign In — PNW Trails</title>
+  <title>Create Account — PNW Trails</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
   <link rel="stylesheet" href="styles/login.css"/>
   <link rel="icon" href="images/logo.png" sizes="64x64">
@@ -18,22 +18,27 @@
     <li><a href="trails.html">Trails</a></li>
     <li><a href="#">Safety</a></li>
     <li><a href="#">Community</a></li>
-    <li><a href="login.html" class="active">Sign In</a></li>
+    <li><a href="login.html">Sign In</a></li>
   </ul>
 </nav>
 
 <!-- ── HERO ── -->
 <header class="hero">
-  <h1>Welcome Back</h1>
-  <p>Sign in to access your trails and saved adventures.</p>
+  <h1>Join PNW Trails</h1>
+  <p>Create an account to save trails and track your adventures.</p>
 </header>
 
-<!-- ── LOGIN CARD ── -->
+<!-- ── SIGNUP CARD ── -->
 <main class="login-main">
   <div class="login-card">
-    <h2 class="card-title">Sign In</h2>
+    <h2 class="card-title">Create Account</h2>
 
-    <form id="login-form" novalidate>
+    <form id="signup-form" novalidate>
+      <div class="field-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required autocomplete="name"/>
+      </div>
+
       <div class="field-group">
         <label for="email">Email</label>
         <input type="email" id="email" name="email" placeholder="Enter your email" required autocomplete="email"/>
@@ -41,22 +46,19 @@
 
       <div class="field-group">
         <label for="pass">Password</label>
-        <input type="password" id="pass" name="pass" placeholder="Enter your password" required autocomplete="current-password"/>
+        <input type="password" id="pass" name="pass" placeholder="At least 6 characters" required autocomplete="new-password"/>
       </div>
 
-      <div class="remember-row">
-        <label class="checkbox-label">
-          <input type="checkbox" name="remember" id="remember"/>
-          <span>Remember me</span>
-        </label>
-        <a href="#" class="forgot-link">Forgot password?</a>
+      <div class="field-group">
+        <label for="confirm-pass">Confirm Password</label>
+        <input type="password" id="confirm-pass" name="confirm-pass" placeholder="Repeat your password" required autocomplete="new-password"/>
       </div>
 
       <p id="error-msg" class="error-msg"></p>
-      <button type="submit" class="btn-primary">Sign In</button>
+      <button type="submit" class="btn-primary">Create Account</button>
     </form>
 
-    <p class="signup-prompt">Don't have an account? <a href="signup.html">Create one</a></p>
+    <p class="signup-prompt">Already have an account? <a href="login.html">Sign in</a></p>
   </div>
 </main>
 
@@ -73,7 +75,6 @@
   </ul>
 </footer>
 
-
-<script type="module" src="scripts/login.js"></script>
+<script type="module" src="scripts/signup.js"></script>
 </body>
 </html>
