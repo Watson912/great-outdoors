@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "PNW Trails",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "public", "-p", "5000", "--no-clipboard"],
+      "port": 5000
+    }
+  ]
+}
