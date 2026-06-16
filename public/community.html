@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Community — PNW Trails</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles/community.css"/>
+  <link rel="icon" href="images/logo.png" sizes="64x64"/>
+  <style>
+    /* Screen-reader only utility */
+    .sr-only {
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden; clip: rect(0,0,0,0);
+      white-space: nowrap; border: 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav aria-label="Main navigation">
+  <a href="index.html" class="nav-logo" aria-label="PNW Trails home">
+    <img src="images/logo.png" alt="PNW Trails logo"/>
+  </a>
+  <ul class="nav-links" role="list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="trails.html">Trails</a></li>
+    <li><a href="safety.html">Safety</a></li>
+    <li><a href="community.html" class="active" aria-current="page">Community</a></li>
+    <li><a href="login.html">Sign In</a></li>
+  </ul>
+</nav>
+
+<!-- ── HERO ── -->
+<header class="hero">
+  <h1>Community</h1>
+  <p>Share trail reports, tips, and questions with fellow PNW hikers.</p>
+</header>
+
+<!-- ── MAIN ── -->
+<main aria-label="Community feed">
+
+  <!-- Composer -->
+  <section aria-label="New post" class="composer-card">
+    <!-- Signed-in state -->
+    <div id="composer-signed-in" hidden>
+      <div class="composer-inner">
+        <div class="avatar" id="composer-avatar" aria-hidden="true"></div>
+        <div class="composer-fields">
+          <label for="post-input" class="sr-only">Write a post</label>
+          <textarea
+            id="post-input"
+            class="composer-textarea"
+            placeholder="Share a trail tip, trip report, or question… (Ctrl+Enter to post)"
+            maxlength="500"
+            rows="3"
+            aria-label="Write a post"
+          ></textarea>
+          <div class="composer-footer">
+            <span class="char-count" id="char-count" aria-live="polite" aria-atomic="true"></span>
+            <button class="btn-post" id="btn-post" disabled aria-label="Post">Post</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Signed-out state -->
+    <div id="composer-guest">
+      <div class="composer-guest">
+        <span class="guest-icon" aria-hidden="true">🏔️</span>
+        <p><a href="login.html">Sign in</a> to join the conversation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Feed bar -->
+  <div class="feed-bar">
+    <span class="feed-count" id="feed-count" aria-live="polite"></span>
+    <div class="sort-group" role="group" aria-label="Sort posts by">
+      <button class="sort-btn active" data-sort="newest">Newest</button>
+      <button class="sort-btn" data-sort="top">Top</button>
+    </div>
+  </div>
+
+  <!-- Feed -->
+  <div id="feed" aria-live="polite" aria-label="Posts">
+
+    <!-- Loading skeleton -->
+    <div id="skeleton" aria-hidden="true">
+      <div class="skeleton-card">
+        <div class="skeleton-header">
+          <span class="skel skel-avatar"></span>
+          <div class="skel-meta">
+            <span class="skel skel-name"></span>
+            <span class="skel skel-time"></span>
+          </div>
+        </div>
+        <span class="skel skel-line1"></span>
+        <span class="skel skel-line2"></span>
+        <span class="skel skel-line3"></span>
+      </div>
+      <div class="skeleton-card">
+        <div class="skeleton-header">
+          <span class="skel skel-avatar"></span>
+          <div class="skel-meta">
+            <span class="skel skel-name"></span>
+            <span class="skel skel-time"></span>
+          </div>
+        </div>
+        <span class="skel skel-line1"></span>
+        <span class="skel skel-line2"></span>
+      </div>
+      <div class="skeleton-card">
+        <div class="skeleton-header">
+          <span class="skel skel-avatar"></span>
+          <div class="skel-meta">
+            <span class="skel skel-name"></span>
+            <span class="skel skel-time"></span>
+          </div>
+        </div>
+        <span class="skel skel-line1"></span>
+        <span class="skel skel-line2"></span>
+        <span class="skel skel-line3"></span>
+      </div>
+    </div>
+
+    <!-- Post cards rendered here by community.js -->
+    <div id="feed-list" role="feed" aria-label="Community posts" aria-busy="true"></div>
+
+    <!-- Empty state -->
+    <div id="empty-state" class="empty-state" hidden role="status">
+      <div class="empty-icon" aria-hidden="true">🌲</div>
+      <h3>Be the first to share</h3>
+      <p>Start the conversation — share a trail tip, trip report, or a question for the community.</p>
+    </div>
+
+  </div>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <ul>
+    <li>All Rights Reserved</li>
+    <li>Copyright &copy; 2026</li>
+    <li class="footer-socials">
+      <a href="">Facebook</a>
+      <a href="">Twitter</a>
+      <a href="">Instagram</a>
+    </li>
+  </ul>
+</footer>
+
+<script type="module" src="scripts/community.js"></script>
+
+</body>
+</html>
