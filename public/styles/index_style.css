@@ -23,10 +23,15 @@
 
 #main-nav {
     background: #D4912B;
-    padding: 10px 40px;
+    padding: 0 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
 }
 
 #main-nav ul {

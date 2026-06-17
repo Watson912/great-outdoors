@@ -1,0 +1,161 @@
+/* ── MOBILE NAV — shared across all pages ── */
+
+/* Hamburger button — hidden on desktop */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  width: 38px;
+  height: 38px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 0 9px;
+  flex-shrink: 0;
+}
+
+.hamburger span {
+  display: block !important;
+  width: 100% !important;
+  height: 2px !important;
+  background: white !important;
+  border-radius: 2px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  transition: transform 0.25s, opacity 0.25s;
+}
+
+.hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.hamburger.active span:nth-child(2) { opacity: 0; }
+.hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* Mobile dropdown menu — hidden by default */
+.mobile-menu {
+  display: none;
+}
+
+/* Reset any page-level ul/li/a overrides from index_style.css etc. */
+.mobile-menu ul {
+  display: block !important;
+  list-style: none !important;
+  padding: 0.4rem 1rem 0.6rem !important;
+  flex-direction: unset !important;
+  gap: 0 !important;
+  align-items: unset !important;
+}
+
+.mobile-menu ul li {
+  display: block !important;
+  background: transparent !important;
+  width: auto !important;
+  text-align: left !important;
+  line-height: normal !important;
+  border-radius: 0 !important;
+  border: none !important;
+}
+
+.mobile-menu ul li a {
+  display: block !important;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  padding: 0.7rem 0.5rem !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+  background: transparent !important;
+  letter-spacing: normal !important;
+}
+
+.mobile-menu ul li:last-child a {
+  border-bottom: none !important;
+}
+
+.mobile-menu ul li a:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+}
+
+.mobile-menu ul li a.active {
+  font-weight: 700 !important;
+}
+
+.mobile-menu.open {
+  display: block !important;
+  position: fixed !important;
+  top: 80px;
+  left: 0;
+  right: 0;
+  background: #D4912B;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 98;
+}
+
+/* ── MOBILE BREAKPOINT ── */
+@media (max-width: 640px) {
+  /* Hide desktop nav links — extra selectors to beat index_style.css specificity */
+  nav .nav-links,
+  #main-nav .nav-links,
+  #main-nav ul.nav-links {
+    display: none !important;
+  }
+
+  /* Hide search bar text input, show icon-only version */
+  nav .nav-search {
+    display: none;
+  }
+
+  /* Search icon button */
+  .nav-search-icon {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    flex-shrink: 0;
+  }
+
+  /* Expanded search panel */
+  nav .nav-search.open {
+    display: flex !important;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: #bf821f;
+    padding: 0.6rem 1rem;
+    z-index: 101;
+  }
+
+  nav .nav-search.open input {
+    width: 100%;
+  }
+
+  /* Show hamburger */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Nav right wrapper — groups search icon + hamburger */
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+/* Desktop: hide search icon button */
+.nav-search-icon {
+  display: none;
+}
