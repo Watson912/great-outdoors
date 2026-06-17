@@ -21,6 +21,12 @@
 
 /* --- NAVIGATION BAR (FLEXBOX) --- */
 
+.nav-logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
 .nav-logo img,
 #header {
     height: 70px;
@@ -30,7 +36,7 @@
 
 #main-nav {
     background: #D4912B;
-    padding: 0 40px;
+    padding: 0 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +55,10 @@
 
 .nav-links {
     display: flex;
-    gap: 8px;
+    gap: 1.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #main-nav li {
@@ -59,7 +68,7 @@
 #main-nav .nav-links li {
     background: rgba(255, 255, 255, 0.2);
     width: auto;
-    line-height: 40px;
+    line-height: 36px;
     border-radius: 6px;
     border: 1px solid rgba(255, 255, 255, 0.35);
 }
@@ -68,7 +77,13 @@
     text-decoration: none;
     color: #ffffff;
     display: block;
-    padding: 5px 18px;
+    padding: 4px 18px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    border-radius: 6px;
+    transition: background 0.18s, color 0.18s;
 }
 
 #main-nav li a:hover {
