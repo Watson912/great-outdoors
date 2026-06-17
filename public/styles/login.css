@@ -48,15 +48,18 @@ body {
 }
 
 .nav-logo img {
-  height: 60px;
+  height: 70px;
   width: auto;
   display: block;
 }
 
 .nav-links {
   display: flex;
-  gap: 1rem;
+  gap: 1.5rem;
   list-style: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-links li {
