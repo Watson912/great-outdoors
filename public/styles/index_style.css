@@ -21,6 +21,13 @@
 
 /* --- NAVIGATION BAR (FLEXBOX) --- */
 
+.nav-logo img,
+#header {
+    height: 70px;
+    width: auto;
+    display: block;
+}
+
 #main-nav {
     background: #D4912B;
     padding: 0 40px;
